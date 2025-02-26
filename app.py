@@ -9,12 +9,7 @@ def get_form():
             {"type": "text", "label": "Name", "key": "name", "required": True},
             {"type": "email", "label": "Email", "key": "email", "required": True},
             {"type": "number", "label": "Age", "key": "age", "required": False},
-             {"type": "email", "label": "Email", "key": "email", "required": True},
-            {"type": "number", "label": "Age", "key": "age", "required": False},
-             {"type": "email", "label": "Email", "key": "email", "required": True},
-            {"type": "number", "label": "Age", "key": "age", "required": False},
-             {"type": "email", "label": "Email", "key": "email", "required": True},
-            {"type": "number", "label": "Age", "key": "age", "required": False},
+            
         ]
     }
     return jsonify(form_structure)
